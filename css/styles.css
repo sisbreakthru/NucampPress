@@ -51,3 +51,16 @@
     color: white;
     padding: 20px;
 }
+
+.menu-scroll-down {
+   scroll-behavior: smooth;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+  
+.carousel {
+    border: 1px groove black;
+}
+
