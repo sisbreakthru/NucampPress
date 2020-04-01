@@ -70,3 +70,11 @@
     height: 12px;
     background-color: #404040;
 }
+
+.contact-form {
+    width: max-content;
+}
+
+.page-header {
+    height: 200px;
+}
