@@ -24,6 +24,11 @@
     text-decoration: none;
 }
 
+.modal-header {
+    background-color: #a83da3;
+    color: white;
+}
+
 .display-1 {
     font-weight: 500;
 }
