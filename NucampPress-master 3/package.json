@@ -1,0 +1,33 @@
+{
+  "name": "nucamppresssite",
+  "version": "1.0.0",
+  "description": "Fictional Self Publishing Company Nucamp Press Website",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sisbreakthru/NucampPress.git"
+  },
+  "author": "Linda L. Smith/Jake Alexander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sisbreakthru/NucampPress/issues"
+  },
+  "homepage": "https://github.com/sisbreakthru/NucampPress#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "jquery-parallax.js": "^1.5.0",
+    "popper.js": "^1.12.9",
+    "smooth-scroll": "^16.1.3"
+  }
+}

@@ -23,7 +23,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-1 text-sm-center">
-                        <img src="images/logo.png" alt="logo">
+                        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
                     </div>
                 </div>
                 <div class="row">
@@ -81,12 +81,49 @@
             <div>
                 <a id="chevronButton" href="#content1" class="text-white mr-5 pr-5" data-scroll><i class="fa fa-chevron-down fa-1x"></i></a>
             </div>
-            <!-- Login Form -->
-            <form class="form-inline">
-                <input class="form-control mr-sm-2" type="email" placeholder="Email" aria-label="Email">
-                <button class="btn btnoutline-success my-2 my-sm-0" type="submit">Login</button>
-            </form>
+            <!-- Login Button -->
+            <button class="btn btnoutline-success my-2 my-sm-0" type="button" data-toggle="modal" data-target="#loginModal">Login</button>
         </nav>
+
+        <!-- Login Modal Form -->
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <form>
+                                <div class="form-row">
+                                    <div class="form-group col-12">
+                                        <label class="sr-only" for="loginEmail">Email address</label>
+                                        <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <label class="sr-only" for="loginPassword"> Password</label>
+                                        <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" />
+                                            <label class="form-check-label">Remember me</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                   <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal"> Cancel </button>
+                                   <button type="button" class="btn btn-nucamp btn-sm ml-1">Sign In</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
        
         <!-- Parallax Window 1 -->
         <div id="content1" class="parallax-window text-center" data-parallax="scroll" data-image-src="images/iStock-837061196.jpg"></div>
@@ -150,7 +187,7 @@
         <!-- Parallax Window 3 -->
         <div class="parallax-window text-center" data-parallax="scroll" data-image-src="images/dreamstime_l_18614487.jpg"> </div>
 
-        <!-- Content 3 -->
+        <!-- Testimonials -->
         <div class="container">
             <div class="row row-content">
                 <div class="col">
@@ -160,7 +197,7 @@
             <div class="row row-content">
                 <div id="carouselTestimonies" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
-                        <li data-target="#carouselTestimonies" data-slide-to="0" class="active">/li>
+                        <li data-target="#carouselTestimonies" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselTestimonies" data-slide-to="1"></li>
                         <li data-target="#carouselTestimonies" data-slide-to="2"></li>
                         <li data-target="#carouselTestimonies" data-slide-to="3"></li>
@@ -211,7 +248,7 @@
         <!-- Parallax Window 4 -->
         <div class="parallax-window text-center" data-parallax="scroll" data-image-src="images/dreamstime_l_159075324.jpg"> </div>
         
-        <!-- Content 4 -->
+        <!-- Contact Form -->
         <div class="container contact-form">
             <div class="row row-content">
                 <div class="col">
