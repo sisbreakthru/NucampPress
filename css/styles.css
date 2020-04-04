@@ -84,6 +84,12 @@
     background-color: #404040;
 }
 
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
 .contact-form {
     width: max-content;
 }
