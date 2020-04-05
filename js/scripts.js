@@ -9,9 +9,10 @@ chevronButton.addEventListener("click", removeArrow)
 
 function removeArrow() {
     var lastScroll = 0;
+    var currentScroll = 0;
   
     window.onscroll = function() {
-        let currentScroll = document.documentElement.scrollTop || document.body.scrollTop; // Get Current Scroll Value
+        currentScroll = document.documentElement.scrollTop || document.body.scrollTop; // Get Current Scroll Value
        
         if (currentScroll > 0 && lastScroll <= currentScroll){
             lastScroll = currentScroll;
