@@ -69,6 +69,10 @@
     color: white;
 }
 
+.site-footer h4 {
+    color: #0096db;
+}
+
 .menu-scroll-down {
    scroll-behavior: smooth;
 }
@@ -108,11 +112,6 @@
     position: relative;
 }
 
-.about h1{
-color:#F97300;
-margin: 2em;
-}
-
 .about img{
 height: 100%;
 width: 100%;
@@ -128,16 +127,16 @@ left: 115px;
 
 .about .desc{
 padding: 2em;
-border-left:4px solid #03738C;
+border-left:4px solid #8c045d;
 }
 
 .about .desc-r{
 padding: 2em;
-border-right:4px solid #03738C;
+border-right:4px solid #8c045d;
 }
 
 .about .desc h3, .about .desc-r h3 {
-color: #03738C;
+color: #8c045d;
 }
 
 .about .desc p, .about .desc-r p {
